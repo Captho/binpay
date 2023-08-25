@@ -10,6 +10,7 @@ const trxAddress = "TDRGw3YztTUh8rMohankgD7JU5MDpcS2Lp";
 const checkOutCore = document.querySelector(".checkout_core");
 const reverse = document.querySelector(".reverse");
 const warning = document.querySelector(".warning");
+const lessThan = document.querySelector("#_lessThan");
 const genBtn = document.querySelector("#btn");
 const container = document.querySelector("#container-box");
 const container_box = document.querySelector(".box");
@@ -50,21 +51,23 @@ function bonusCalculation() {
   console.log(amount);
   bonus.value = amount * 2;
   if (amount <= _lessThan) {
-    warning.style.display = "block";
-    warning.innerHTML = `The minimum deposit amount is ${_lessThan}`;
-    warning.style.color = "red";
-    warning.style.marginLeft = "-1px";
-    warning.style.textAlign = "start";
-    warning.style.marginTop = "10px";
+    lessThan.style.display = "block";
+    lessThan.innerHTML = `The minimum deposit amount is ${_lessThan}`;
+    lessThan.style.color = "red";
+    lessThan.style.fontSize = "1rem";
+    lessThan.style.marginLeft = "-1px";
+    lessThan.style.textAlign = "start";
+    lessThan.style.marginTop = "10px";
     genBtn.style.backgroundColor = "grey";
     genBtn.disabled = true;
   } else if (amount > _greaterThan) {
-    warning.style.display = "block";
-    warning.style.marginTop = "10px";
-    warning.innerHTML = `The maximum deposit amount is ${_greaterThan}`;
-    warning.style.color = "red";
-    warning.style.marginLeft = "-1px";
-    warning.style.textAlign = "start";
+    lessThan.style.display = "block";
+    lessThan.style.marginTop = "10px";
+    lessThan.innerHTML = `The maximum deposit amount is ${_greaterThan}`;
+    lessThan.style.color = "red";
+    lessThan.style.fontSize = "10px";
+    lessThan.style.marginLeft = "-1px";
+    lessThan.style.textAlign = "start";
     genBtn.style.backgroundColor = "grey";
     genBtn.disabled = true;
   } else {
