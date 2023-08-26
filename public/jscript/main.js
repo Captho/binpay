@@ -65,7 +65,7 @@ function bonusCalculation() {
     lessThan.style.marginTop = "10px";
     lessThan.innerHTML = `The maximum deposit amount is ${_greaterThan}`;
     lessThan.style.color = "red";
-    lessThan.style.fontSize = "10px";
+    lessThan.style.fontSize = "16px";
     lessThan.style.marginLeft = "-1px";
     lessThan.style.textAlign = "start";
     genBtn.style.backgroundColor = "grey";
