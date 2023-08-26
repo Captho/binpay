@@ -54,7 +54,7 @@ function bonusCalculation() {
     lessThan.style.display = "block";
     lessThan.innerHTML = `The minimum deposit amount is ${_lessThan}`;
     lessThan.style.color = "red";
-    lessThan.style.fontSize = "1rem";
+    lessThan.style.fontSize = "1.3rem";
     lessThan.style.marginLeft = "-1px";
     lessThan.style.textAlign = "start";
     lessThan.style.marginTop = "10px";
