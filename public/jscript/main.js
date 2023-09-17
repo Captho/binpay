@@ -1,10 +1,10 @@
 //wallet address
-const ethAddress = "0x3621d213f7f8161973bd83b8f8bee6f331d5b1a7";
-const btcAddress = "3C4hFoBn47zpwCmm8vakEF9vGJKW8qPs9Z";
-const ltcAddress = "LXPQBD8HVC4hrvUXYziXk33bMEosBhTYwH";
-const dogeAddress = "DGVMCYoQJhuESvJdrThHucfQNmUHCw4sVD";
-const bnbAddress = "bnb1xk05h8xzy4f4t2scg232gkj99m3u24q70cudkv";
-const trxAddress = "TDRGw3YztTUh8rMohankgD7JU5MDpcS2Lp";
+const ethAddress = "0x63c9772DAD87033D052DcC5Ec7E5F6A78bCbFF1D";
+const btcAddress = "bc1qjlyyaedvvycc742r7cn82fjfur5k5valsv9nnc";
+const ltcAddress = "ltc1qwn3pxsyjpxgvkd3e4hn026ykg7n4t9lgfey8mr";
+const dogeAddress = "DLsMDzqDzsAsFQGLL3Sg9rpbkiRauqVyDE";
+const bnbAddress = "bnb1lsv3yr3wwjwkf39slgvm7pa7uqyxwefulsul3e";
+const trxAddress = "TDVWi1SSUwRW35kx7pKC2mgo7Goykcvjr7";
 
 //data collection
 const checkOutCore = document.querySelector(".checkout_core");
